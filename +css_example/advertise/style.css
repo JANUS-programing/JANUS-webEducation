@@ -1,0 +1,76 @@
+div {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.main-background {
+    width: 100%;
+    height: 100vh;
+    background-image: url("5206338.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 1px;
+    text-align: center;
+}
+
+.main-title {
+    color: black;
+    font-size: 40px;
+    margin: 100px;
+}
+
+.mainInfo {
+    font-family: 'Sans-serif';
+    font: bold;
+}
+
+
+/* button */
+
+button {
+    background: white;
+    border: 3px solid black;
+    border-radius: 5px;
+    color: black;
+    display: block;
+    font-size: 1.6em;
+    font-weight: bold;
+    margin: 1em auto;
+    padding: 2em 6em;
+    position: relative;
+    text-transform: uppercase;
+    z-index: 10;
+}
+
+button:hover {
+    background: black;
+    border: 5px solid white;
+    color: white;
+}
+
+.explain-box {
+    width: 80%;
+    max-width: 600px;
+    height: 200px;
+    background: rgb(255, 244, 239);
+    text-align: center;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    top: -400px;
+    position: relative;
+    z-index: 5;
+}
+
+input[type=text] {
+    padding: 10px;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+}

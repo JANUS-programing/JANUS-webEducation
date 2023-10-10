@@ -1,0 +1,60 @@
+/* 전체 로그인 div 스타일 */
+
+.login-form {
+    max-width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+/* 폼 제목 스타일 */
+
+h2 {
+    margin-top: 0%;
+}
+
+
+/* 라벨 스타일 */
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+
+/* 입력 필드 스타일 */
+
+#password,
+#username {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+
+/* 버튼 스타일 */
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+/* 버튼에 마우스를 올렸을 때의 스타일 */
+
+button:hover {
+    background-color: #0056b3;
+}
